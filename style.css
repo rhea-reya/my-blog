@@ -1,3 +1,8 @@
+{
+	padding: 0;
+	margin: 0;
+}
+
 body {
 	background-color: #FFFFFF;
 	color: #000;
@@ -18,23 +23,54 @@ h2 {
  color: #000000;
 }
 
-footer {
-	text-align: center;
-	padding: 10px;
-	background-color: #eee;
-	margin-top: 20px:;
+th, td {
+	border: 1px solid #999;
+	padding: 8px;
+	text-align: left;
+
 }
 table {
 	width: 100%;
 	border-collapse: collapse;
 	margin-top: 10px;
 }
-
-th, td {
-	border: 1px solid #999;
-	padding: 8px;
-	text-align: left;
+wrapper {
+    background:url(bg-img.jpg) no-repeat;
+    background-size: cover; 
+    height: 100vh; 
+}
+navbar  {
+	height: 80px;
+	width: 100%;
+	background: rgba(0.0.0.0.4);
+}
+profile {
+    width: 140px;
+	height: auto;
+	padding: 20px 100px;
+}
+navbar ul {
+	float: right:;
+	margin-right:20pxs;
 }
 
+navbar ul li {
+   list-style: non;
+   margin: 0 8px;
+   display:inline-block;
+   line-height: 40px;
+}
+navbar ul li a {
+   color: white;
+   font-size 20;
+   font-family: Roboto, sans-serif;
+}
+	
+footer {
+	text-align: center;
+	padding: 10px;
+	background-color: #eee;
+	margin-top: 20px:;
+}
 
 
