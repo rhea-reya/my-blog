@@ -1,0 +1,40 @@
+body {
+	background-color: #FFFFFF;
+	color: #000;
+}
+
+header {
+	background-color: #1E90FF;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.content {
+	padding: 20px;
+}
+
+h2 {
+ color: #000000;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	background-color: #eee;
+	margin-top: 20px:;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+th, td {
+	border: 1px solid #999;
+	padding: 8px;
+	text-align: left;
+}
+
+
+
